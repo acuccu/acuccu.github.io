@@ -3882,7 +3882,7 @@ input, select, textarea {
 	}
 
 	#bluebook {
-		display: block;
+		display: none;
 	}
 
 	#bluebooklink:hover + #bluebook {
