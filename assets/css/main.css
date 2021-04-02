@@ -3882,11 +3882,11 @@ input, select, textarea {
 	}
 
 	#bluebook {
-		display: none;
+		display: none
 	}
 
-	#bluebooklink:hover + #bluebook {
-		display: hidden;
+	#bluebook.showBlueBook {
+		display: block;
 		position: absolute;
  		background-color: #ff0000;
  		width: 250px;
@@ -3894,3 +3894,5 @@ input, select, textarea {
  		left: 200px;
  		top: 100px;
 	}
+
+	

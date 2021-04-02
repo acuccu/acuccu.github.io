@@ -206,3 +206,9 @@
 					});
 
 })(jQuery);
+
+$('#bluebooklink').hover((e) => {
+	$('#bluebook').addClass('showBlueBook')
+}, e => {
+	$('#bluebook').removeClass('showBlueBook')
+})
