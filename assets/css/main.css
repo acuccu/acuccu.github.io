@@ -3885,14 +3885,103 @@ input, select, textarea {
 		display: none
 	}
 
+	
+
 	#bluebook.showBlueBook {
+		font-size: 14px;
 		display: block;
 		position: absolute;
- 		background-color: #ff0000;
- 		width: 250px;
+ 		width: 300px;
  		height: 250px;
- 		left: 200px;
- 		top: 100px;
+ 		left: 250px;
+ 		top: 90px;
+		 animation: fadeIn ease 1.5s;
+  		-webkit-animation: fadeIn ease 1.5s;
+  		-moz-animation: fadeIn ease 1.5s;
+  		-o-animation: fadeIn ease 1.5s;
+  		-ms-animation: fadeIn ease 1.5s;
 	}
+
+	#schoolforce {
+		display: none
+	}
+
+	#schoolforce.showSchoolForce {
+		font-size: 14px;
+		display: block;
+		position: absolute;
+ 		width: 300px;
+ 		height: 250px;
+ 		left: 250px;
+ 		top: 90px;
+		 animation: fadeIn ease 1.5s;
+  		-webkit-animation: fadeIn ease 1.5s;
+  		-moz-animation: fadeIn ease 1.5s;
+  		-o-animation: fadeIn ease 1.5s;
+  		-ms-animation: fadeIn ease 1.5s;
+	}
+
+	#spotify {
+		display: none
+	}
+
+	#spotify.showspotify {
+		font-size: 14px;
+		display: block;
+		position: absolute;
+ 		width: 300px;
+ 		height: 250px;
+ 		left: 250px;
+ 		top: 90px;
+		 animation: fadeIn ease 1.5s;
+  		-webkit-animation: fadeIn ease 1.5s;
+  		-moz-animation: fadeIn ease 1.5s;
+  		-o-animation: fadeIn ease 1.5s;
+  		-ms-animation: fadeIn ease 1.5s;
+	}
+
+	@keyframes fadeIn {
+		0% {
+		  opacity:0;
+		}
+		100% {
+		  opacity:1;
+		}
+	  }
+	  
+	  @-moz-keyframes fadeIn {
+		0% {
+		  opacity:0;
+		}
+		100% {
+		  opacity:1;
+		}
+	  }
+	  
+	  @-webkit-keyframes fadeIn {
+		0% {
+		  opacity:0;
+		}
+		100% {
+		  opacity:1;
+		}
+	  }
+	  
+	  @-o-keyframes fadeIn {
+		0% {
+		  opacity:0;
+		}
+		100% {
+		  opacity:1;
+		}
+	  }
+	  
+	  @-ms-keyframes fadeIn {
+		0% {
+		  opacity:0;
+		}
+		100% {
+		  opacity:1;
+	  }}
 
 	

@@ -212,3 +212,15 @@ $('#bluebooklink').hover((e) => {
 }, e => {
 	$('#bluebook').removeClass('showBlueBook')
 })
+
+$('#schoolforcelink').hover((e) => {
+	$('#schoolforce').addClass('showSchoolForce')
+}, e => {
+	$('#schoolforce').removeClass('showSchoolForce')
+})
+
+$('#spotifylink').hover((e) => {
+	$('#spotify').addClass('showspotify')
+}, e => {
+	$('#spotify').removeClass('showspotify')
+})
