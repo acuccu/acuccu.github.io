@@ -1,2 +1,2 @@
 # Personal website
-please visit [acuccu.github.io]
+please visit [acuccu.github.io](http://acuccu.github.io)
