@@ -1,2 +1,2 @@
-# Personal website
+# Portfolio
 please visit [acuccu.github.io](http://acuccu.github.io)
